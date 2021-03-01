@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <math.h>
+/* program dziala poprawnie, tylko w przypadku kompilacji przy uzyciu gcc nalezy dodac bilbioteke    
+   matematyczna -lm. Dla g++ nie jest to koniecznie. */
 
 
 struct TrojmianKw {
