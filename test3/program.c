@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 
-extern const double PI;
-extern const double E;
+static const double PI; /* Sama zmiana extern na static nie dzialala. Kompilator pokazywal blad mowiacy ze PI oraz E nie zostaly zainicjowane. */
+static const double E;
 
 
 int main()
