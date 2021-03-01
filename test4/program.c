@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-double Dodaj();
+double Dodaj(double, double); //nalezy podac typy argumentow jakie przyjmuje funkcja
 
 
 int main( )
